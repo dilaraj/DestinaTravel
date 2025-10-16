@@ -1,0 +1,19 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+
+.logo {
+    height: 4em;
+    width: 4em;
+}
+
+.headerText {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 48px;
+    letter-spacing: 0.25em;
+}
