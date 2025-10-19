@@ -1,0 +1,15 @@
+.btnContainer {
+    height: 3em;
+    width: 6em;
+    border-radius: 48px 48px 0 0;
+    background-color: #FFFFFF;
+    border: 1px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down {
+    font-size: 2rem;
+}
