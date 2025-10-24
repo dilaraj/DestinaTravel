@@ -1,0 +1,45 @@
+.dropDown-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+.dropDown-label {
+    font-size: 0.875em;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.25em;
+}
+
+.dropDown-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+
+    border: 1px solid #108981;
+    padding: 0.25em 1em;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 16.5em;
+    height: 1.25em;
+
+}
+
+.dropDown-item {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropDown-listItem {
+    list-style-type: none;
+    font-size: 0.625em;
+
+    color: #595959;
+    font-weight: 600;
+    font-family: 'Inter';
+    letter-spacing: 0.25em;
+}
+
