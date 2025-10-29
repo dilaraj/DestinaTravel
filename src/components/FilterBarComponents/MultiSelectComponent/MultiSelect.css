@@ -1,0 +1,59 @@
+.multiSelect-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.multiSelect-label {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 0.875em;
+    letter-spacing: 0.25em;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25em;
+    
+    
+}
+
+.multiSelect-btnText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 0.625em;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+
+    width: fit-content;
+    height: 27px;
+    background-color: rgba(16, 137, 129, 0.5);
+    border-radius: 20px;
+    padding: 0 1em;
+}
+
+.multiSelect-btnText:hover {
+    background-color: #108981;
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+input[type='radio']:checked + .multiSelect-btnText {
+    background-color: #108981;
+}
