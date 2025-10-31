@@ -5,12 +5,13 @@ import "@fontsource/poppins";
 
 // Components
 import Featured from './components/FeaturedComponents/Featured';
+import FilterBar from './components/FilterBarComponents/FilterBar';
 
 function App() {
 
   return (
     <>
-      <Featured />
+      <FilterBar />
     </>
   )
 }

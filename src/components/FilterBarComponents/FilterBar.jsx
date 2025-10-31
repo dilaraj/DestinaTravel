@@ -1,9 +1,10 @@
-import DropDown from "./DropDownComponent/DropDown";
+import FilterBarMain from "./FilterBarComponent/FilterBarMain";
 
 export default function FilterBar() {
-    const listItems = ['Middle East & North Africa'];
 
     return (
-        <DropDown listName="Continent" listItems={listItems}/>
+        <div className="filterBarContainer">
+            <FilterBarMain />
+        </div>
     )
 }
