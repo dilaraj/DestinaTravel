@@ -4,3 +4,15 @@
     gap: 5em;
     flex-wrap: wrap;
 }
+
+.destinationCard-back {
+    display: none;
+}
+
+.destinationCard-front:hover + .destinationCard-back{
+    display: block;
+}
+
+.destinationCard-front:hover {
+    display: none;
+}
