@@ -1,0 +1,68 @@
+.frontCard-container {
+    width: 20.625em;
+    height: 29.233em;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+}
+
+.frontCard-img {
+    width: 20.625em;
+    height: 21.063em;
+    border-radius: 20px;
+}
+
+.frontCard-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.65em;
+    padding-left: 0.25em;
+}
+
+.line {
+    border: 1px solid #6B7280;
+    width: 11em;
+    opacity: 0.5;
+}
+
+.frontCard-city {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.25em;
+    color: #000000;
+}
+
+.frontCard-extraInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frontCard-country {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.25em;
+    color: #000000;
+}
+
+.frontCard-priceRange {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 0.875em;
+    letter-spacing: 0.25em;
+    color: #6B7280;
+}
+
+.frontCard-type {
+    background-color: rgba(217, 217, 217, 0.3);
+    padding: 0.5em;
+    border-radius: 10px;
+
+}
