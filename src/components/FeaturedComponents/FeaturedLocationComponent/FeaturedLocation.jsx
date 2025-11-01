@@ -4,7 +4,8 @@ import SeeMoreBtn from '../SeeMoreBtnComponent/SeeMoreBtn';
 import './FeaturedLocation.css';
 
 
-export default function FeaturedLocation() {
+export default function FeaturedLocation({ handleScroll }) {
+
     // Selecting Random Featured Location 
     const randomID = destinations[Math.floor(Math.random() * destinations.length)];
 
@@ -25,7 +26,7 @@ export default function FeaturedLocation() {
                             {randomID.description}
                         </div>
                     </div>
-                    <div className="seeMore-Container"><SeeMoreBtn /></div>
+                    <div className="seeMore-Container"><SeeMoreBtn scrollToTarget={handleScroll}/></div>
                 </div>
             </div>
         </>

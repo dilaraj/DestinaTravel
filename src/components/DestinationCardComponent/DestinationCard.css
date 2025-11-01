@@ -1,7 +1,8 @@
 .destinationCard-container {
     display: flex;
     flex-direction: row;
-    gap: 5em;
+    justify-content: center;
+    gap: 4em 7em;
     flex-wrap: wrap;
 }
 
