@@ -1,0 +1,20 @@
+.homePage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 97.8vw;
+    min-height: 100vh;
+}
+
+div.homePage-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    padding-bottom: 1em;
+}
+
+.homePage-filterBar {
+    padding-top: 1.5em;
+}

@@ -4,14 +4,13 @@ import './App.css';
 import "@fontsource/poppins";
 
 // Components
-import Featured from './components/FeaturedComponents/Featured';
-import FilterBar from './components/FilterBarComponents/FilterBar';
+import HomePage from './components/HomePageComponent/HomePage';
 
 function App() {
 
   return (
     <>
-      <FilterBar />
+      <HomePage/>
     </>
   )
 }
