@@ -7,8 +7,19 @@
     font-size: 0.75rem;
     letter-spacing: 0.25em;
 
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.5em 0;
+    width: 100vw;
+}
+
+.footer-title {
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+
+.footer-date {
+    grid-column: 3 / 4;
+    justify-self: end;
+    padding-right: 10em;
 }
